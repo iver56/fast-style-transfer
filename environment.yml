@@ -1,0 +1,14 @@
+name: fast-style-transfer
+channels:
+  - defaults
+dependencies:
+  - numpy=1.11
+  - pip>=9.0.1,<=19
+  - python=3.6.6
+  - scipy=0.18
+  - zlib
+  - pip:
+      - moviepy==1.0.0
+      - Pillow==5.4.1
+      - six
+      - tensorflow-gpu==1.2
